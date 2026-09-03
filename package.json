@@ -46,7 +46,7 @@
 
     "pino": "^8.14.0"
     
-    "qrcode": "^latest"
+    "qrcode": "latest"
 
   },
 
