@@ -45,6 +45,7 @@
     "node-cache": "^5.1.2",
 
     "pino": "^8.14.0"
+    "qrcode": "^latest"
 
   },
 
