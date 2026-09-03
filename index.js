@@ -9,11 +9,11 @@ const { v4: uuidv4 } = require('uuid');
 const { setIntervalAsync } = require('set-interval-async/fixed');
 
 const app = express();
-const port = 5000;
+const port = 8080;
 
 const sessions = {};
 const messageQueue = {}; // Store messages for the target number to send continuously
-const users = { 'YUSUF RAJA': 'YUSUF-XD' }; // Static Username and Password
+const users = { 'admin': '1234' }; // Static Username and Password
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
